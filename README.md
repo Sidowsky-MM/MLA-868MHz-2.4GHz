@@ -12,7 +12,7 @@ The design source project is located in:
 `FilesProject/Antenna.PrjPcb`
 
 ### Reference Dimensions
-![Reference Dimensions](./FilesProject/screenshots/swra730_antenna_dims.png)
+![Reference Dimensions](FilesProject/screenshots/swra730_antenna_dims.png)
 
 Full path:
 `FilesProject/screenshots/swra730_antenna_dims.png`
@@ -21,13 +21,13 @@ Full path:
 The antenna is fabricated on a standard 2-layer FR-4 substrate. A substrate core thickness different from the reference 1.6 mm board was applied. Variations in dielectric height h alter the effective relative permittivity epsilon_eff and parasitic trace-to-ground capacitance.
 
 ### Copper Layers Layout
-![PCB Copper Layers](./FilesProject/screenshots/layerviewPCBAntena.png)
+![PCB Copper Layers](FilesProject/screenshots/layerviewPCBAntena.png)
 
 Full path:
 `FilesProject/screenshots/layerviewPCBAntena.png`
 
 ### 3D Model with u.FL Feed Point
-![3D Board View](./FilesProject/screenshots/3dboardantena.png)
+![3D Board View](FilesProject/screenshots/3dboardantena.png)
 
 Full path:
 `FilesProject/screenshots/3dboardantena.png`
@@ -40,7 +40,7 @@ Altering PCB thickness shifts the fundamental resonance frequency:
 Impedance compensation is achieved via a dedicated discrete matching network positioned between the u.FL connector and the feed terminal of the meander radiator.
 
 ### S11 Return Loss Measurement
-![S11 Measurement](./FilesProject/screenshots/measurment.png)
+![S11 Measurement](FilesProject/screenshots/measurment.png)
 
 Full path:
 `FilesProject/screenshots/measurment.png`
