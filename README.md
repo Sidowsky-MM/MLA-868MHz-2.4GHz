@@ -9,28 +9,28 @@ The primary engineering goal is to evaluate the detuning effect resulting from u
 The geometry follows the footprint specifications outlined in Texas Instruments SWRA730 documentation. The antenna is fed via a 50 Ohm miniature u.FL (IPEX) coaxial connector.
 
 The design source project is located in:
-`MLA-868MHz-2.4GHz/FilesProject/Antenna.PrjPcb`
+`FilesProject/Antenna.PrjPcb`
 
 ### Reference Dimensions
-![Reference Dimensions](MLA-868MHz-2.4GHz/FilesProject/screenshots/swra730_antenna_dims.png)
+![Reference Dimensions](FilesProject/screenshots/swra730_antenna_dims.png)
 
 Full path:
-`MLA-868MHz-2.4GHz/FilesProject/screenshots/swra730_antenna_dims.png`
+`FilesProject/screenshots/swra730_antenna_dims.png`
 
 ## 3. PCB Implementation and Stackup Analysis
 The antenna is fabricated on a standard 2-layer FR-4 substrate. A substrate core thickness different from the reference 1.6 mm board was applied. Variations in dielectric height h alter the effective relative permittivity epsilon_eff and parasitic trace-to-ground capacitance.
 
 ### Copper Layers Layout
-![PCB Copper Layers](MLA-868MHz-2.4GHz/FilesProject/screenshots/layerviewPCBAntena.png)
+![PCB Copper Layers](FilesProject/screenshots/layerviewPCBAntena.png)
 
 Full path:
-`MLA-868MHz-2.4GHz/FilesProject/screenshots/layerviewPCBAntena.png`
+`FilesProject/screenshots/layerviewPCBAntena.png`
 
 ### 3D Model with u.FL Feed Point
-![3D Board View](MLA-868MHz-2.4GHz/FilesProject/screenshots/3dboardantenna.png)
+![3D Board View](FilesProject/screenshots/3dboardantenna.png)
 
 Full path:
-`MLA-868MHz-2.4GHz/FilesProject/screenshots/3dboardantenna.png`
+`FilesProject/screenshots/3dboardantenna.png`
 
 ## 4. Detuning Compensation and RF Measurements
 Altering PCB thickness shifts the fundamental resonance frequency:
@@ -40,10 +40,10 @@ Altering PCB thickness shifts the fundamental resonance frequency:
 Impedance compensation is achieved via a dedicated discrete matching network positioned between the u.FL connector and the feed terminal of the meander radiator.
 
 ### S11 Return Loss Measurement
-![S11 Measurement](MLA-868MHz-2.4GHz/FilesProject/screenshots/measurment.png)
+![S11 Measurement](FilesProject/screenshots/measurment.png)
 
 Full path:
-`MLA-868MHz-2.4GHz/FilesProject/screenshots/measurment.png`
+`FilesProject/screenshots/measurment.png`
 
 The measured S11 parameter confirms deep return loss notches at both 868 MHz (S11 < -10 dB) and 2.4 GHz (S11 < -15 dB), proving that board thickness variations can be fully compensated via passive component selection.
 
